@@ -9,7 +9,6 @@ This template can be used to query values and receive traps via SNMP from a F5 B
 Value mappings:
 
 	SNMP (Type: sysCmFailoverStatusId):
-
 		0 ⇒ unknown
 		1 ⇒ offline
 		2 ⇒ forcedOffline
@@ -17,7 +16,6 @@ Value mappings:
 		4 ⇒ active
 
 	SNMP (Type: sysCmSyncStatusId):
-
 		0 ⇒ unknown
 		1 ⇒ syncing
 		2 ⇒ needManualSync
@@ -30,13 +28,11 @@ Value mappings:
 		9 ⇒ partialSync
 
 	SNMP (Type: sysChassisFanStatus):
-
 		0 ⇒ bad
 		1 ⇒ good
 		2 ⇒ notpresent
 
 	SNMP (Type: ltmNodeAddrStatusAvailState):
-
 		0 ⇒ none
 		1 ⇒ green
 		2 ⇒ yellow
@@ -45,14 +41,12 @@ Value mappings:
 		5 ⇒ gray
 
 	SNMP (Type: ltmNodeAddrStatusEnabledState):
-
 		0 ⇒ none
 		1 ⇒ enabled
 		2 ⇒ disabled
 		3 ⇒ disabledbyparent
 
 	SNMP (Type: ltmPoolStatusAvailState):
-
 		0 ⇒ none
 		1 ⇒ green
 		2 ⇒ yellow
@@ -61,20 +55,17 @@ Value mappings:
 		5 ⇒ grey
 
 	SNMP (Type: ltmPoolStatusEnabledState):
-
 		0 ⇒ none
 		1 ⇒ enabled
 		2 ⇒ disabled
 		3 ⇒ disabledbyparent
 
 	SNMP (Type: sysChassisPowerSupplyStatus):
-
 		0 ⇒ bad
 		1 ⇒ good
 		2 ⇒ notpresent
 
 	SNMP (Type: ltmVsStatusAvailState):
-
 		0 ⇒ none
 		1 ⇒ green
 		2 ⇒ yellow
@@ -83,7 +74,6 @@ Value mappings:
 		5 ⇒ gray
 
 	SNMP (Type: ltmVsStatusEnabledState):
-
 		0 ⇒ none
 		1 ⇒ enabled
 		2 ⇒ disabled
